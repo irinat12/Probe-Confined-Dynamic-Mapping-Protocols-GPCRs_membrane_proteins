@@ -1,0 +1,39 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     BTA
+MODEL        1
+HETATM    1  C1  BTA     1      -0.185  -0.090  -0.051  1.00  0.00           C  
+HETATM    2  O1  BTA     1      -0.270   1.043  -0.497  1.00  0.00           O  
+HETATM    3  N1  BTA     1      -1.241  -0.664   0.495  1.00  0.00           N  
+HETATM    4  C2  BTA     1       1.130  -0.869  -0.084  1.00  0.00           C  
+HETATM    5  C3  BTA     1       1.380  -1.646  -1.399  1.00  0.00           C  
+HETATM    6  C4  BTA     1       1.570  -0.756  -2.640  1.00  0.00           C  
+HETATM    7  H1  BTA     1      -1.209  -1.602   0.850  1.00  0.00           H  
+HETATM    8  H2  BTA     1      -2.086  -0.118   0.507  1.00  0.00           H  
+HETATM    9  H3  BTA     1       1.940  -0.160   0.094  1.00  0.00           H  
+HETATM   10  H4  BTA     1       1.149  -1.558   0.760  1.00  0.00           H  
+HETATM   11  H5  BTA     1       2.273  -2.262  -1.277  1.00  0.00           H  
+HETATM   12  H6  BTA     1       0.563  -2.348  -1.579  1.00  0.00           H  
+HETATM   13  H7  BTA     1       1.789  -1.354  -3.524  1.00  0.00           H  
+HETATM   14  H8  BTA     1       0.674  -0.172  -2.855  1.00  0.00           H  
+HETATM   15  H9  BTA     1       2.393  -0.054  -2.504  1.00  0.00           H  
+CONECT    1    2    3    4
+CONECT    1    2
+CONECT    2    1
+CONECT    2    1
+CONECT    7    3
+CONECT    3    1    7    8
+CONECT    8    3
+CONECT    4    1    9   10    5
+CONECT    9    4
+CONECT   10    4
+CONECT    5    4   11   12    6
+CONECT   11    5
+CONECT   12    5
+CONECT    6    5   13   14   15
+CONECT   13    6
+CONECT   14    6
+CONECT   15    6
+ENDMDL
+END   

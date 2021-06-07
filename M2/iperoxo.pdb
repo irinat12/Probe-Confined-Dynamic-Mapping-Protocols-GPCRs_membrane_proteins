@@ -1,0 +1,91 @@
+HEADER    SIGNALING PROTEIN                       16-SEP-13   4MQT
+REMARK   4 4MQT COMPLIES WITH FORMAT V. 3.30,
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     STRUCTURE OF ACTIVE HUMAN M2 MUSCARINIC ACETYLCHOLINE
+TITLE    2 RECEPTOR BOUND TO THE AGONIST IPEROXO AND ALLOSTERIC
+TITLE    3 MODULATOR LY2119620
+EXPDTA    X-RAY DIFFRACTION
+REMARK   2 RESOLUTION.    3.70 ANGSTROMS
+REMARK 200  TEMPERATURE           (KELVIN) : 77.00
+REMARK 200  PH                             : NULL
+REMARK 350 BIOMOLECULE:  1
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B
+REMARK 350   BIOMT1  1   1.000000 0.000000 0.000000   0.000000
+REMARK 350   BIOMT2  1   0.000000 1.000000 0.000000   0.000000
+REMARK 350   BIOMT3  1   0.000000 0.000000 1.000000   0.000000
+CRYST1   59.032   77.399  163.822  90.00  90.00  90.00 P 21 21 21    4
+HET    LIG  A 501      31
+HETNAM     LIG Unknown ligand
+FORMUL   1  LIG    UNL
+MODEL        1
+HETATM    1  C1  LIG A 501      -2.148  -0.650   3.696  1.00 83.58           C  
+HETATM    2  N1  LIG A 501      -0.764  -0.220   3.696  1.00 95.88           N1+
+HETATM    3  C2  LIG A 501      -0.315  -0.077   5.041  1.00 88.91           C  
+HETATM    4  C3  LIG A 501      -0.620   1.105   2.984  1.00 98.51           C  
+HETATM    5  C4  LIG A 501       0.054  -1.221   3.034  1.00104.72           C  
+HETATM    6  C5  LIG A 501       1.469  -0.834   2.685  1.00 90.80           C  
+HETATM    7  C6  LIG A 501       2.695  -0.592   2.369  1.00108.80           C  
+HETATM    8  C7  LIG A 501       4.165  -0.272   2.136  1.00131.33           C  
+HETATM    9  O1  LIG A 501       4.505   0.446   0.961  1.00136.47           O  
+HETATM   10  C8  LIG A 501       3.848   1.601   0.607  1.00130.22           C  
+HETATM   11  N2  LIG A 501       3.205   2.479   1.510  1.00123.24           N  
+HETATM   12  O2  LIG A 501       2.670   3.523   0.811  1.00 95.48           O  
+HETATM   13  C9  LIG A 501       3.240   3.495  -0.497  1.00107.90           C  
+HETATM   14  C10 LIG A 501       3.707   2.135  -0.694  1.00110.33           C  
+HETATM   15  H1  LIG A 501      -2.482  -0.806   2.668  1.00  0.00           H  
+HETATM   16  H2  LIG A 501      -2.263  -1.564   4.272  1.00  0.00           H  
+HETATM   17  H3  LIG A 501      -2.756   0.134   4.152  1.00  0.00           H  
+HETATM   18  H4  LIG A 501       0.725   0.252   5.050  1.00  0.00           H  
+HETATM   19  H5  LIG A 501      -0.932   0.672   5.541  1.00  0.00           H  
+HETATM   20  H6  LIG A 501      -0.408  -1.034   5.560  1.00  0.00           H  
+HETATM   21  H7  LIG A 501       0.407   1.465   2.929  1.00  0.00           H  
+HETATM   22  H8  LIG A 501      -1.080   0.959   2.011  1.00  0.00           H  
+HETATM   23  H9  LIG A 501      -1.214   1.833   3.540  1.00  0.00           H  
+HETATM   24  H10 LIG A 501      -0.442  -1.441   2.092  1.00  0.00           H  
+HETATM   25  H11 LIG A 501       0.059  -2.135   3.629  1.00  0.00           H  
+HETATM   26  H12 LIG A 501       4.727  -1.202   2.159  1.00  0.00           H  
+HETATM   27  H13 LIG A 501       4.495   0.299   3.004  1.00  0.00           H  
+HETATM   28  H14 LIG A 501       4.111   4.132  -0.551  1.00  0.00           H  
+HETATM   29  H15 LIG A 501       2.530   3.828  -1.254  1.00  0.00           H  
+HETATM   30  H16 LIG A 501       2.971   1.541  -1.236  1.00  0.00           H  
+HETATM   31  H17 LIG A 501       4.641   2.085  -1.255  1.00  0.00           H  
+CONECT    1    2   15   16   17
+CONECT    2    1    3    4    5
+CONECT    3    2   18   19   20
+CONECT    4    2   21   22   23
+CONECT    5    2    6   24   25
+CONECT    6    5    7
+CONECT    6    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    7    6
+CONECT    8    7    9   26   27
+CONECT    9    8   10
+CONECT   10    9   11   14
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13
+CONECT   13   12   14   28   29
+CONECT   14   10   13   30   31
+CONECT   15    1
+CONECT   16    1
+CONECT   17    1
+CONECT   18    3
+CONECT   19    3
+CONECT   20    3
+CONECT   21    4
+CONECT   22    4
+CONECT   23    4
+CONECT   24    5
+CONECT   25    5
+CONECT   26    8
+CONECT   27    8
+CONECT   28   13
+CONECT   29   13
+CONECT   30   14
+CONECT   31   14
+ENDMDL
+END   
